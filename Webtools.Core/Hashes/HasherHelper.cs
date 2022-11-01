@@ -3,6 +3,11 @@ using System.Text;
 
 namespace Webtools.Core.Hashes
 {
+    /// <summary>
+    /// Helper class for calculating hashes
+    /// In Blazor WebAssembly supports:
+    /// SHA1, SHA256, SHA384, and SHA512.
+    /// </summary>
     public static class HasherHelper
     {
         public static async Task<string> Calculate<T>(this T algorithm, Stream stream)
@@ -19,6 +24,14 @@ namespace Webtools.Core.Hashes
             return sBuilder.ToString();
         }
 
+        /// <summary>
+        /// Uses buffer to speed up the computation and avoid OutOfMemory problems.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="algorithm"></param>
+        /// <param name="stream"></param>
+        /// <param name="bufferLength"></param>
+        /// <returns></returns>
         public static async Task<string> CalculateBuffered<T>(this T algorithm, Stream stream, int bufferLength = 2000000)
             where T : HashAlgorithm, ICryptoTransform
         {
