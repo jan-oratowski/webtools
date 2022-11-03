@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
-using Webtools.Core.Hashes;
+using WebTools.Core.Hashes;
 
-namespace Webtools.Core.Tests.Hashes;
+namespace WebTools.Core.Tests.Hashes;
 
 public class Sha256Tests
 {

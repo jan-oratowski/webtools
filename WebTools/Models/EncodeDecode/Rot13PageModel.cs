@@ -1,4 +1,4 @@
-﻿using Webtools.Core.Encoders;
+﻿using WebTools.Core.Encoders;
 
 namespace WebTools.Models.EncodeDecode
 {

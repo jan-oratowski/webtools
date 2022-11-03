@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Webtools.Core
+namespace WebTools.Core
 {
     public static class Helpers
     {

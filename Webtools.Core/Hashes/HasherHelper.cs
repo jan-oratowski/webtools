@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace Webtools.Core.Hashes
+namespace WebTools.Core.Hashes
 {
     /// <summary>
     /// Helper class for calculating hashes

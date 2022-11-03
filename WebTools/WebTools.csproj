@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -14,7 +14,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Webtools.Core\Webtools.Core.csproj" />
+	  <ProjectReference Include="..\WebTools.Core\WebTools.Core.csproj" />
 	</ItemGroup>
 	
 	<ItemGroup>

@@ -1,4 +1,4 @@
-﻿namespace Webtools.Core.Encoders
+﻿namespace WebTools.Core.Encoders
 {
     public static class Rot13
     {

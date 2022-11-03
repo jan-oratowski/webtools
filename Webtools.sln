@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webtools.Core", "Webtools.Core\Webtools.Core.csproj", "{C4ED4BE4-23A9-483D-95BD-642C0CB0ADE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTools.Core", "Webtools.Core\WebTools.Core.csproj", "{C4ED4BE4-23A9-483D-95BD-642C0CB0ADE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webtools.Core.Tests", "Webtools.Core.Tests\Webtools.Core.Tests.csproj", "{9544EC72-AC84-44E6-9086-229FA5201B43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTools.Core.Tests", "Webtools.Core.Tests\WebTools.Core.Tests.csproj", "{9544EC72-AC84-44E6-9086-229FA5201B43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTools", "WebTools\WebTools.csproj", "{CBFA9A6C-5760-4FDF-B69C-FD56B9F6F9A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTools", "WebTools\WebTools.csproj", "{CBFA9A6C-5760-4FDF-B69C-FD56B9F6F9A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

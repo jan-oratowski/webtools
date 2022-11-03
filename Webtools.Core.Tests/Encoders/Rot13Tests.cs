@@ -1,6 +1,6 @@
-﻿using Webtools.Core.Encoders;
+﻿using WebTools.Core.Encoders;
 
-namespace Webtools.Core.Tests.Encoders
+namespace WebTools.Core.Tests.Encoders
 {
     public class Rot13Tests
     {
