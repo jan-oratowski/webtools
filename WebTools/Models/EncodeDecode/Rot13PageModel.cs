@@ -2,7 +2,7 @@
 
 namespace WebTools.Models.EncodeDecode
 {
-    public class Rot13PageModel : IPageModel, IEncodeDecodePageModel
+    public class Rot13PageModel : IEncodeDecodePageModel
     {
         public string Name => "Rot13";
         public string Description => "Rot13 is a simple obfuscation algorithm that shifts letters by 13 places.";
