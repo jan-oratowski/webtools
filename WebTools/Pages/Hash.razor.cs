@@ -15,16 +15,16 @@ public partial class Hash
             switch (value)
             {
                 case "sha1":
-                    Model = new StandardShaPageModel<SHA1>();
+                    Model = ModelHelper.SHA1PageModel;
                     break;
                 case "sha256":
-                    Model = new StandardShaPageModel<SHA256>();
+                    Model = ModelHelper.SHA256PageModel;
                     break;
                 case "sha384":
-                    Model = new StandardShaPageModel<SHA384>();
+                    Model = ModelHelper.SHA384PageModel;
                     break;
                 case "sha512":
-                    Model = new StandardShaPageModel<SHA512>();
+                    Model = ModelHelper.SHA512PageModel;
                     break;
                 default:
                     break;

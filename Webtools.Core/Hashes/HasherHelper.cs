@@ -5,7 +5,7 @@ namespace WebTools.Core.Hashes;
 
 /// <summary>
 /// Helper class for calculating hashes
-/// In Blazor WebAssembly supports:
+/// In Blazor WebAssembly .net supports out of the box:
 /// SHA1, SHA256, SHA384, and SHA512.
 /// </summary>
 public static class HasherHelper
