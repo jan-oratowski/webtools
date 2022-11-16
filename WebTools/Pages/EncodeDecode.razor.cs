@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
+using WebTools.Models;
 using WebTools.Models.EncodeDecode;
 
 namespace WebTools.Pages;
@@ -19,6 +20,18 @@ public partial class EncodeDecode
                     break;
                 case "base64":
                     Model = new Base64PageModel();
+                    break;
+                case "url-encode":
+                    Model = new UrlEncodePageModel();
+                    break;
+                case "html-encode":
+                    Model = new HtmlEncode();
+                    break;
+                case "escape-data-string":
+                    Model = new EscapeDataStringPageModel();
+                    break;
+                case "hex-escape":
+                    Model = new HexEscapePageModel();
                     break;
                 default:
                     break;

@@ -1,8 +1,7 @@
-﻿namespace WebTools.Models
+﻿namespace WebTools.Models;
+
+public interface IPageModel
 {
-    public interface IPageModel
-    {
-        string Name { get; }
-        string Description { get; }
-    }
+    string Name { get; }
+    string Description { get; }
 }
