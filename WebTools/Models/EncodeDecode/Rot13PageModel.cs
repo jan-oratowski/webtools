@@ -16,7 +16,7 @@ namespace WebTools.Models.EncodeDecode
                 return;
 
             Output = Rot13.Transform(Input);
-            OutputType = "Encoded";
+            OutputType = IEncodeDecodePageModel.OutputTypeEncoded;
         }
 
         public void Decode()
@@ -25,7 +25,7 @@ namespace WebTools.Models.EncodeDecode
                 return;
 
             Output = Rot13.Transform(Input);
-            OutputType = "Decoded";
+            OutputType = IEncodeDecodePageModel.OutputTypeDecoded;
         }
     }
 }

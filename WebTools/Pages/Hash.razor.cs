@@ -4,11 +4,11 @@ using WebTools.Models.Hash;
 namespace WebTools.Pages
 
 [Route("/hash")]
-[Route("/hash/{algo}")]
+[Route("/hash/{algorithm}")]
 public partial class Hash
 {
     [Parameter]
-    public string? Algo
+    public string? Algorithm
     {
         set
         {

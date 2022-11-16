@@ -4,11 +4,11 @@ using WebTools.Models.EncodeDecode;
 namespace WebTools.Pages;
 
 [Route("/encode-decode")]
-[Route("/encode-decode/{algo}")]
+[Route("/encode-decode/{algorithm}")]
 public partial class EncodeDecode
 {
     [Parameter]
-    public string? Algo
+    public string? Algorithm
     {
         set
         {
@@ -16,6 +16,9 @@ public partial class EncodeDecode
             {
                 case "rot13":
                     Model = new Rot13PageModel();
+                    break;
+                case "base64":
+                    Model = new Base64PageModel();
                     break;
                 default:
                     break;
